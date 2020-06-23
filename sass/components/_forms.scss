@@ -1,0 +1,23 @@
+.btn-main {
+    color: $font-color !important;
+}
+
+.btn-outline-success {
+    border-color: $font-color;
+    &:hover {
+        background-color: $font-color !important;
+        border-color: $font-color !important;
+        color: $background-color !important;
+    }
+}
+
+input {
+    background-color: $background-color-2 !important;
+    color: $font-color !important;
+}
+
+.form-control {
+    &:focus {
+        border-color: $font-color !important;
+    }
+}

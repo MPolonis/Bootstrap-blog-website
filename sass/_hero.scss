@@ -1,0 +1,19 @@
+.hero {
+    background-color: $background-color-2;
+}
+
+.hero-post-badges {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    a {
+        background-color: $background-color-2;
+        color: $font-color;
+        padding: 5px;
+        .icon {
+            padding-right: 10px;
+        }
+    }
+    
+}
+
