@@ -406,4 +406,9 @@ a {
 .hero-post-badges a .icon {
   padding-right: 10px;
 }
+
+.hero-post-content {
+  position: absolute;
+  bottom: 20px;
+}
 /*# sourceMappingURL=style.css.map */
