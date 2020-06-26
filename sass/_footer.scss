@@ -1,0 +1,12 @@
+.footer {
+    background-color: $background-color-2;
+    color: $font-color-2;
+    padding: 10px;
+    .footer-logo {
+        font-weight: 700;
+        font-size: 1.5rem;
+    }
+    .credits {
+        color: $font-color;
+    }
+}

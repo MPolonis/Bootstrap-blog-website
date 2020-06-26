@@ -17,6 +17,8 @@ input {
 }
 
 .form-control {
+    border-color: $font-color !important;
+    margin-right: 10px;
     &:focus {
         border-color: $font-color !important;
     }

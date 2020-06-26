@@ -1,11 +1,16 @@
 .hero {
     background-color: $background-color-2;
+    .hero-post {
+        position: relative;
+        margin-bottom: 20px;
+    }
 }
 
 .hero-post-badges {
     position: absolute;
     top: 20px;
     right: 20px;
+    margin-bottom: 10px;
     a {
         background-color: $background-color-2;
         color: $font-color;
@@ -20,5 +25,13 @@
 .hero-post-content {
     position: absolute;
     bottom: 20px;
-
+    color: $font-color;
+    padding-left: 15px;
+    img {
+        border:  2px solid $font-color;
+    }
+    
 }
+
+
+
