@@ -1,0 +1,100 @@
+.navbar{
+    background-color: $background-color;
+    color: $font-color;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.menu-bar-mobile {
+    display: none;
+  }
+  
+  .icon-hamburger {
+    
+    height: 32px;
+    width: 32px;
+    cursor: pointer;
+  }
+  
+  .icon-hamburger-toggle {
+    fill: $font-color;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height: 32px;
+    width: 32px;
+    cursor: pointer;
+  }
+  
+  .sidebar {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: auto;
+      background-color: #000;
+      display: none;
+      z-index: 9999;
+  
+      ul {
+          
+          font-weight: 600;
+          text-transform: uppercase;
+          font-size: 22px;
+          text-align: center;
+          margin: 0;
+          padding: 40px 0;
+          list-style: none;
+          li {
+              padding: 5px 0;
+          }
+          a  {
+              text-decoration: none;
+              
+              &:hover {
+                  color: $background-color;
+              }
+          }
+      }
+  }
+  
+  
+  .active {
+    display: inline-block;
+  }
+
+@media (max-width: 768px) {
+    .menu-on-normal-screens {
+        display: none;
+    }
+    .menu-bar-mobile {
+        background-color: $background-color;
+        width: 100%;
+        display: block;
+        z-index: 1000;
+        position: relative;
+        .navbar-brand-mobile {
+            color: $font-color;
+            padding: 20px;
+            font-size: 26px;
+        }
+        .icon-hamburger-mobile {
+            float: right;
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            fill: $font-color;
+        }
+        .sidebar {
+            path {
+                fill: $font-color;
+            }
+            .sidebar-menu {
+                font-size: 26px;
+            }
+        }
+    }
+}
